@@ -1,3 +1,7 @@
+h1{
+  text-align : center;
+
+
 body.white {
   background-color: white;
   color: black;
@@ -26,7 +30,7 @@ body.green {
 .color div {
   height: 100px;
   width: 100px;
-  border: 5px solid blue;
+  border: 5px solid cream;
   display: flex;
   align-items: center;
   justify-content: center;
