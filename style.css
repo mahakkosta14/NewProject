@@ -37,7 +37,7 @@ body.green {
   color: white;
 }
 
-.color {
+/* .color {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -61,7 +61,7 @@ body.green {
 .green {
   color: black;
   background-color: green;
-}
+} */
 
 .theme-red {
   background-color: #ff4d4d;
