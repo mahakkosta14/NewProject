@@ -1,5 +1,6 @@
-body, h1, p, button {
-  transition: all 0.5s ease;
+body, h1, p, .color div {
+  transition: background-color 0.5s ease, color 0.5s ease;
+  font-family: 'Segoe UI', sans-serif;
 }
 h1 {
   font-size: 2.5rem;
@@ -11,9 +12,7 @@ h1 {
   from { opacity: 0; transform: translateY(-20px); }
   to { opacity: 1; transform: translateY(0); }
 }
-button:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
-}
+
 .content-wrapper {
   padding: 20px;
   border-radius: 12px;
@@ -41,17 +40,9 @@ body.green {
 .color {
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
+  margin-top: 30px;
 }
-
-.color div {
-  height: 100px;
-  width: 100px;
-  border: 5px solid cream;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .white {
   color: black;
   background-color: white;
@@ -83,5 +74,14 @@ body.green {
 .theme-green {
   background-color: #33cc99;
   color: #fff;
+}
+.color div {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
 }
 
