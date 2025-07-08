@@ -21,3 +21,7 @@ let green = document.querySelector(".green");
 green.addEventListener("click", () => {
     changeColor("green");
 });
+function applyTheme(theme) {
+  document.body.className = '';
+  document.body.classList.add(`theme-${theme}`);
+}
