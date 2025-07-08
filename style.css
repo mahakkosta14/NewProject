@@ -71,3 +71,17 @@ body.green {
   color: black;
   background-color: green;
 }
+
+.theme-red {
+  background-color: #ff4d4d;
+  color: white;
+}
+.theme-blue {
+  background-color: #3399ff;
+  color: #f0f8ff;
+}
+.theme-green {
+  background-color: #33cc99;
+  color: #fff;
+}
+
